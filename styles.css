@@ -35,3 +35,33 @@ p img {
   margin-left: 20px;
   margin-bottom: 32px;
 }
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+  border-top: 1px solid MediumVioletRed;
+  border-bottom: 1px solid MediumVioletRed;
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+  color: MediumVioletRed;
+  text-decoration: none;
+  padding: 12px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid MediumVioletRed;
+  padding-bottom: 9px;
+}
