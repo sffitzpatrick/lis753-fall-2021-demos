@@ -1,14 +1,40 @@
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
-h1 {
+.container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.small-container {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 768px;
+}
+
+h1#site-title {
   font-size: 72px;
   letter-spacing: -3px;
   margin-top: 0;
   margin-bottom: .125em;
   text-align: center;
+  font-weight: 800;
+}
+
+h1#article-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+  margin-top: 64px;
+}
+
+h2 {
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 48px;
 }
 
 p {
@@ -27,6 +53,24 @@ figure img {
   max-width: 100%;
   height: auto;
   margin-bottom: 12px;
+}
+
+figure.main-image {
+  background: PaleVioletRed;
+  border-color: MediumVioletRed;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+figure.section-image {
+  margin-bottom: 32px;
+  max-width: 320px;
+  margin-right: -62px;
+}
+
+figure.section-image {
+  float: right;
+  margin-left: 20px;
 }
 
 p img {
